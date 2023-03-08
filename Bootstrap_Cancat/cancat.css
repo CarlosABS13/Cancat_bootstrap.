@@ -1,0 +1,217 @@
+body {
+    background-image: url(./images/fondo1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.barra {
+    border-radius: 15px;
+}
+
+.barra a {
+    font-family: holyfat;
+    font-size: 26pt !important;
+    color: #00db00;
+
+}
+
+.barra :hover {
+    color: white !important;
+}
+
+.color :hover {
+    background-color: #00db00;
+    background-size: contain;
+    height: 100;
+}
+
+.logo {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 0 4rem !important;
+
+}
+
+@font-face {
+    font-family: holyfat;
+    src: url(./fuentes/Holyfat.ttf);
+}
+
+p {
+    color: black;
+}
+
+.texto1 {
+    color: #00db00 !important;
+    font-size: 35pt !important;
+    margin: 0 1rem !important;
+}
+
+.texto1- {
+    margin: 0 1rem !important;
+    color: #00db00 !important;
+}
+
+.texto2 {
+    margin-top: 2rem !important;
+    margin-bottom: 1rem !important;
+    margin: 0 1rem !important;
+    color: #089aaa;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn {
+    background-color: #00db00;
+    border-radius: 50%;
+    font-family: holyfat;
+    color: white;
+    margin: 2rem;
+}
+
+.btn {
+    width: 15rem;
+    height: 6rem;
+}
+
+.titulo {
+    color: #00db00;
+    font-family: holyfat;
+    background-color: rgba(255, 255, 255, 0.534);
+    border-radius: 20px;
+}
+
+.parrafo {
+    color: white;
+    margin: 1rem 3rem;
+    font-size: 18pt !important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.barras {
+    background-color: hsla(215, 32%, 27%, 0.062);
+    list-style: none;
+}
+
+.pa {
+    background-color: #00db00b6;
+    border-radius: 10px;
+}
+
+.vi {
+    margin-bottom: 2rem !important;
+}
+
+.sli {
+    margin: 0 8rem;
+}
+
+.titulo1 {
+    color: #00db00;
+    font-family: holyfat;
+    background-color: rgba(255, 255, 255, 0.53);
+    border-radius: 20px;
+}
+
+.temas {
+    background-color: #00db0065;
+    border-radius: 10px;
+}
+
+.ul {
+    font-size: 15pt !important;
+    color: white;
+    text-decoration: none;
+}
+
+.links {
+    background-color: #00db00be;
+    border-radius: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.prr {
+    /*     font-size: 15pt; */
+    margin: 0 0.5rem !important;
+    text-decoration: none;
+    color: white !important;
+    margin: 3rem 3rem;
+    font-size: 17pt !important;
+}
+
+.li {
+    list-style: none;
+}
+
+.fondo :hover {
+    color: blue !important;
+    text-decoration: underline;
+}
+
+.carr {
+    margin: 0 rem !important;
+}
+
+.carr img {
+    width: auto;
+    height: auto;
+}
+
+.titulo1- {
+    color: #00db00;
+    font-family: holyfat;
+    font-size: 40pt !important;
+}
+
+.caja {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.caja img {
+    margin: 1rem auto;
+}
+
+.im :hover {
+    filter: invert(20%);
+}
+
+.iml {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logos {
+    width: 35px !important;
+    height: 35px !important;
+    margin: 1rem 0;
+}
+
+.logos :hover {
+    filter: invert(80%);
+    transition: 0,5s;
+}
+
+.derechos {
+    margin: 0 0 1rem 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.footer {
+    background-color: rgba(255, 255, 255, 0.315);
+    margin-top: 2rem;
+    background-size: cover;
+    padding: 2rem 0;
+}
+.logos{
+    text-decoration: none;
+    color: none;
+}
+.img :hover {
+    filter: invert(20%);
+}
